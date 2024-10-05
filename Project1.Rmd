@@ -1,10 +1,4 @@
 ---
-title: "Modern Data Mining, HW 2"
-author:
-- Leonel Contreras
-- Andra Gonzalez
-- Nicholas McGowan
-date: 'Due: 11:59 PM,  Sunday, 02/25'
 output:
   pdf_document:
     number_sections: yes
@@ -49,7 +43,6 @@ Both PCA and Clustering Analysis are so called unsupervised learning. There is n
 
 For supervised learning, we try to find out how does a set of predictors relate to some response variable of the interest. Multiple regression is still by far, one of the most popular methods. We use a linear model as a working model for its simplicity and interpretability. It is important that we use domain knowledge as much as we can to determine the form of the response as well as the function format of the factors on the other hand. 
 
-**Important Notice: This homework encompasses material from three modules. You will have a period of three weeks to complete it. Please manage your time accordingly.**
 
 ## Objectives
 
