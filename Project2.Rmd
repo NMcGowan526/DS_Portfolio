@@ -1,9 +1,4 @@
 ---
-title: "Modern Data Mining - HW 4"
-author:
-- Nicholas McGowan
-- Leonel Contreras
-date: 'Due: 11:59Pm,  April 10th, 2024'
 output:
   pdf_document:
     toc: yes
@@ -32,8 +27,7 @@ library(caret)
 
 
 # Overview
-
-In this homework, we will explore the transition from linear models to more flexible, tree-based methods and ensemble techniques in predictive modeling. Unlike linear models, a model-free approach, such as binary decision trees, offers a more intuitive understanding by illustrating direct relationships between predictors and responses. Although simple, binary decision trees are highly interpretable and can unveil valuable insights.
+We will explore the transition from linear models to more flexible, tree-based methods and ensemble techniques in predictive modeling. Unlike linear models, a model-free approach, such as binary decision trees, offers a more intuitive understanding by illustrating direct relationships between predictors and responses. Although simple, binary decision trees are highly interpretable and can unveil valuable insights.
 
 However, to harness greater predictive power, we can extend beyond a single decision tree. By aggregating multiple models, particularly those that are uncorrelated, we significantly enhance our predictive accuracy. A prime example of this concept is the RandomForest algorithm. Here, we create a multitude of decision trees through bootstrap sampling – a method where each tree is built from a random subset of data and variables. The aggregation of these diverse trees results in a robust final prediction model.
 
@@ -42,8 +36,6 @@ Ensemble methods extend this idea further by combining various models to improve
 Boosting, particularly Gradient Boosting Machines, stands out as another potent predictive method. Unlike traditional ensemble techniques that build models independently, boosting focuses on sequentially improving the prediction by specifically targeting the errors of previous models. Each new model incrementally reduces the errors, leading to a highly accurate combined prediction. 
 
 All the methods mentioned above  can handle diverse types of data and predict outcomes ranging from continuous to categorical responses, including multi-level categories.
-
-In Homework 4, we will delve into these advanced techniques, moving beyond the limitations of linear models and exploring the expansive potential of trees, ensembles, and boosting in modern data mining. This journey will provide you with a solid foundation in leveraging sophisticated algorithms to uncover deeper insights and achieve superior predictive performance. 
 
 
 ## Objectives
