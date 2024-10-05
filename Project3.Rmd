@@ -1,10 +1,4 @@
 ---
-title: " Modern Data Mining, HW 3"
-author:
-- Leonel Contreras
-- Nicholas McGowan
-- Group Member 3
-date: '11:59 pm, 03/17, 2024'
 output:
   pdf_document:
     number_sections: yes
@@ -65,13 +59,6 @@ For covid case study, the major time and effort would be needed in EDA portion.
     - `lm()`, `Anova`
     - `regsubsets()`
     - `glmnet()` & `cv.glmnet()`
-
-## Review materials
-
-- Study lecture: Regularization
-- Study lecture: Multiple regression
-
-Review the code and concepts covered during lectures: multiple regression, penalized regression through elastic net (only LSASSO). 
 
 **Important Notice:** The focus of this part is Covid case study. 
 
